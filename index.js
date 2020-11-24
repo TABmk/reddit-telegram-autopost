@@ -17,7 +17,7 @@ const tags = [
 
 const send = async (link) => {
   bot.telegram.sendPhoto(ChatID, link, {
-    caption: ' <a href="https://t.me/BotovodBlog">Подписывайся</a> 👈',
+    caption: ' <a href="https://t.me/tab_mk">Sub</a> 👈',
     parse_mode: 'HTML'
   }).catch(e => {
     console.log(e);
